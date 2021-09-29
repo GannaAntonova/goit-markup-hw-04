@@ -327,6 +327,7 @@ a {
 .client-item {
   flex-basis: calc(100% / 6 - 30px);
   margin-right: var(--item-margin-side);
+  padding: 0px;
 }
 .project-example-title {
   font-weight: 700;
@@ -423,6 +424,23 @@ ul {
   font-family: inherit;
   letter-spacing: inherit;
   border-radius: 4px;
+}
+
+.button-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button-icon:hover {
+  color: #2196f3;
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  background-color: #ffffff;
 }
 
 /*--picture styles--*/
